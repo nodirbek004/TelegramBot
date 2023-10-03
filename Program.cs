@@ -78,4 +78,5 @@ Task HandlePollingErrorAsync(ITelegramBotClient botClient, Exception exception, 
 
     Console.WriteLine(ErrorMessage);
     return Task.CompletedTask;
+    /// comment
 }
